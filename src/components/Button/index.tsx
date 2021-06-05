@@ -1,16 +1,15 @@
-import React, { ReactElement } from 'react';
-
+import React, { ReactElement } from "react";
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-    text?: string;
+  text?: string;
 }
 
-function index({className, text, children}: Props): ReactElement {
-    return (
-        <button className={`h-10 px-3 rounded-md ${className}`} >
-            {text?text:children}
-        </button>
-    )
+function index({ className, text, children, ...props }: Props): ReactElement {
+  return (
+    <button {...props} className={`h-10 px-3 rounded-md ${className}`}>
+      {text ? text : children}
+    </button>
+  );
 }
 
 export default index;

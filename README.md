@@ -1,6 +1,8 @@
 # Blend - Shopping made easy
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Used tailwindcss for styling without a lot of css files
+Craco for building tailwind css files for development and production
 
 ## Available Scripts
 

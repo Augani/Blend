@@ -16,3 +16,11 @@
     }
     
 }
+
+
+@media (min-width:450px) and (max-width:1280px) {
+    .clip img:nth-of-type(2) {
+        transform: rotate(270deg) translateX(130px);
+    }
+    
+}

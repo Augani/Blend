@@ -1,4 +1,4 @@
-# Blend - Shopping made easy
+# Blend - Gems for everyone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Used tailwindcss for styling without a lot of css files

@@ -29,14 +29,14 @@ function Home({}: Props): JSX.Element {
   return (
     <div className="w-full h-full flex flex-col relative">
       <NavBar />
-      <main className="w-full grid grid-rows-2 gap-4">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 lg:gap-2 gap-8">
-          <section className=" place-items-center flex flex-col h-full   items-center">
-            <h1 className="lg:text-8xl text-4xl font-bold tracking-widest text-center uppercase leading-snug ">
-              Stay alive! <br /> Buy more <br /> gems at a <br /> Staggering{" "}
+      <main className="w-full lg:grid flex flex-col lg:grid-rows-2 gap-4">
+        <div className="w-full lg:grid flex flex-col lg:grid-cols-2 gap-2">
+          <section className="flex flex-col justify-center my-10 lg:my-0 items-center">
+            <h1 className="2xl:text-8xl md:text-6xl text-4xl font-bold tracking-widest text-center uppercase leading-snug ">
+              Stay alive! <br /> Buy more <br /> gems at a <br /> Staggering
               <br /> 20% discount
             </h1>
-            <hr className="my-10 border-gray-600" />
+            <hr className="my-4 border-gray-600" />
             <Button className="text-gray-50 font-semibold text-xl border-none rounded-sm h-12 lg:w-1/4 w-4/5 shadow-xl transform duration-200 hover:scale-105 justify-center flex flex-row items-center hover:bg-red-600 bg-red-500 ">
               <a
                 href="#store"
@@ -60,7 +60,7 @@ function Home({}: Props): JSX.Element {
               </svg>
             </Button>
           </section>
-          <section className="flex flex-col  items-center clip">
+          <section className="flex flex-col justify-center items-center clip">
             <img
               className="object-cover lg:w-1/2 w-5/6 shadow-xl"
               src="https://res.cloudinary.com/augani/image/upload/v1622808010/5mcVx5ku_400x400.jpg"
